@@ -1,0 +1,59 @@
+/*make the box entire content*/
+.box_body{
+    width: 305px;
+    height: 630px;
+    padding: 0.8em;
+    border: 1.5px solid gray;
+    box-shadow: 10px 10px rgb(218, 214, 214);
+}
+/*make the box for body paragraph*/
+.box_paragraph{  
+    width: 297px;
+    border: 1.5px solid gray;
+    margin-top: 10px;
+}
+
+/* make the list without bullets */
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em;
+    background-color: rgb(233, 229, 229);  
+    font-size: 12px;
+    font-family:'Segoe UI', Courier, monospace;  
+}
+
+/* favorite animal name */
+h3{
+    font-family:'Franklin Gothic Medium', Courier, monospace;  
+    font-size: 24px;      
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+    padding: 0.5em;
+    font-style: normal;  
+}
+p.interest{
+    font-style: italic;
+}
+
+/* tag sub-titule before definition */
+.tagName:before {
+    content: "Scientific Name: ";
+    font-weight: bold;
+  }
+.tagAverageLeng:before {
+content: "Average Lenght: ";
+font-weight: bold;
+}
+
+.tagAverageLifeSpan:before {
+    content: "Average Lifespan: ";
+    font-weight: bold;
+}
+.tagHabital:before {
+    content: "Habital: ";
+    font-weight: bold;
+}
